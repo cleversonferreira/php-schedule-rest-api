@@ -1,0 +1,9 @@
+.box-button {
+    background: #a7d1ef;
+    height: 100px;
+    padding-top: 32px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 23px;
+    cursor: pointer;
+}
