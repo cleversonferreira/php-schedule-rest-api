@@ -1,14 +1,17 @@
-# Turn rewrite engine on
 RewriteEngine on
 
+#SCHEDULE ROUTES
+#change index route
+RewriteRule ^/?$ view/index.php [NC,L]
+#create new contact
+RewriteRule ^contact/new/?$ view/contact/create.php [NC,L]
+
+#REST ROUTES
 #get contacts
 RewriteRule ^rest/contact/list/?([0-9]+)?/?$  controller/RestController.php?id=$1 [NC,L,QSA]
-
 #create new contact
 RewriteRule ^rest/contact/create/?$   controller/RestController.php [L]
-
 #delete contact
 RewriteRule ^rest/contact/?([0-9]+)/?$  controller/RestController.php?id=$1 [NC,L,QSA]
-
 #update contact
 RewriteRule ^rest/contact/?([0-9]+)/?$  controller/RestController.php?id=$1 [NC,L,QSA]
