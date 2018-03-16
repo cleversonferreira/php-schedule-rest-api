@@ -21,7 +21,7 @@
                                 <form class="form-horizontal" id="create-form" role="form">
                                     <div class="form-group">
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control" id="name" placeholder="Nome"/>
+                                            <input required type="text" class="form-control" id="name" placeholder="Nome"/>
                                         </div>
                                         <div class="col-sm-6">
                                             <input type="text" class="form-control" id="last_name" placeholder="Sobrenome"/>
@@ -29,10 +29,10 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="col-sm-6">
-                                            <input type="text" class="form-control phone_with_ddd" id="phone_number" placeholder="Telefone"/>
+                                            <input required type="text" class="form-control phone_with_ddd" id="phone_number" placeholder="Telefone"/>
                                         </div>
                                         <div class="col-sm-6">
-                                            <input type="email" class="form-control" id="email" placeholder="E-mail"/>
+                                            <input required type="email" class="form-control" id="email" placeholder="E-mail"/>
                                         </div>
                                     </div>
                                     <div class="form-group">
