@@ -4,7 +4,7 @@
         <div class="col-sm-12 col-md-4">
             <div class="box-button">
                 <!-- create modal active -->
-                <a data-toggle="modal" data-target=".bs-create-modal-lg">ADICIONAR CONTATO</a>
+                <a data-toggle="modal" data-target=".bs-create-modal-lg">Adicionar contato</a>
                 <div id="create-modal" class="modal fade bs-create-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
@@ -154,28 +154,18 @@
         </div>
         <div class="col-sm-12 col-md-4">
             <div class="box-button">
+                <p id="contacts-counter"></p>
             </div>
         </div>
         <div class="col-sm-12 col-md-4">
             <div class="box-button">
-
+                <p id="clock"></p>
             </div>
         </div>
     </div>
 
     <div class="col-sm-12 col-md-12">
         <div class="col-sm-12 col-md-12 main">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Buscar contato ...">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">Buscar</button>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <hr>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
